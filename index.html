@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hays Democracy Fest — Program</title>
+  <meta name="description" content="Program schedule for Hays Democracy Fest" />
+
+  <style>
+    :root{
+      --bg: #ffffff;
+      --text: #0f172a;            /* slate-900 */
+      --muted: #475569;           /* slate-600 */
+      --accent: #111827;          /* gray-900 */
+      --card: #f8fafc;            /* slate-50 */
+      --border: #e2e8f0;          /* slate-200 */
+    }
+    *{ box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .wrap{
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+    }
+
+    header{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1{
+      font-size: clamp(2rem, 3vw + 1rem, 3rem);
+      margin: 0 0 .25rem 0;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+    header p{
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+
+    .time{
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      display: inline-block;
+      padding: .15rem .5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: white;
+      margin-bottom: .5rem;
+    }
+
+    .items{
+      margin: .25rem 0 0;
+      padding-left: 1.2rem;
+    }
+    .items li{
+      margin: .15rem 0;
+    }
+
+    .section-title{
+      font-weight: 800;
+      margin: .25rem 0 .25rem;
+      font-size: 1.1rem;
+      letter-spacing: .01em;
+    }
+
+    footer{
+      margin-top: 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    /* Print styles */
+    @media print{
+      body { background: white; }
+      .wrap{ padding: 0; }
+      .card{ break-inside: avoid; }
+      a[href]:after{ content: ""; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="https://kansasdems.org/static/KD-Color-558aea788a935a2cd5edbbb4616e330e.png" alt="Hays Democracy Fest" style="max-width:240px; height:auto; margin-bottom:1rem;" />
+      <h1>Hays Democracy Fest — Program</h1>
+      <p>Welcome! Here’s today’s program.</p>
+    </header>
+
+    <section class="card">
+      <div class="time">12:30 PM</div>
+      <ul class="items">
+        <li>Doors open — mix &amp; mingle, refreshments</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="time">1:30 PM</div>
+      <div class="section-title">Welcome and Pledge of Allegiance</div>
+      <ul class="items">
+        <li>Kansas Democratic Party Chair - <strong>Chair Jeanna Repass</strong></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="section-title">Speaker Line‑up (Including Q&amp;A)</div>
+      <ul class="items">
+        <li>Kansas State Senators &amp; Gubernatorial Candidates</li>
+        <li>U.S. Senate Candidates — running to unseat Roger Marshall</li>
+        <li>Kansas Attorney General Candidate</li>
+        <li>Secretary of State Candidate</li>
+        <li>First Congressional District Candidates - to unseat Tracy Mann</li>
+        <li>Local candidate</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <div class="section-title">Thank you &amp; Announcements</div>
+    </section>
+
+    <section class="card">
+      <div class="time">3:10 PM</div>
+      <ul class="items">
+        <li>Meet candidates, ask questions, and make commitments to do your part to elect Democrats in Kansas!</li>
+      </ul>
+    </section>
+
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>
